@@ -1,5 +1,5 @@
 # surprise
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
@@ -7,36 +7,46 @@
   <title>Сюрприз</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffe0ec, #ffd6e0);
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
       text-align: center;
-      color: #333;
+      color: #5c2a44;
     }
     .box {
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      background: #fff0f6;
+      padding: 30px 25px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+    }
+    .box p {
+      font-size: 20px;
+      margin-bottom: 15px;
     }
     .coords {
-      font-size: 24px;
+      font-size: 20px;
       font-weight: bold;
-      color: #007aff;
-      margin: 10px 0;
+      color: #d63384;
+      margin-bottom: 15px;
     }
     .btn {
       display: inline-block;
-      margin-top: 15px;
+      margin-top: 10px;
       padding: 10px 20px;
-      background: #007aff;
-      color: #fff;
+      background: #ff66a3;
+      color: white;
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #e05592;
     }
   </style>
 </head>
