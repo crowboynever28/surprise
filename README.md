@@ -43,8 +43,8 @@
 <body>
   <div class="box">
     <p>Знаешь, что это?</p>
-    <div class="coords">(46.3959043, 30.7298109)</div>
-    <a class="btn" href="https://maps.google.com/?q=47.123456,31.123456" target="_blank">Смотри на карте</a>
+    <div class="coords">46.3959043, 30.729810</div>
+    <a class="btn" href="https://maps.google.com/?q=46.3959043,30.729810" target="_blank">Смотри на карте</a>
   </div>
 </body>
 </html>
